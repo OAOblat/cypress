@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "headed:chrome": "cypress run --headed --browser chrome",
-    "headless:chrome": "cypress run --headless --browser chrome",
-    "headed:firefox": "cypress run --headed --browser firefox",
-    "headless:firefox": "cypress run --headless --browser firefox"
-
+    "headed:chrome": "cypress run --browser chrome --headed",
+    "headless:chrome": "cypress run --browser chrome --headless",
+    "headed:firefox": "cypress run --browser firefox --headed",
+    "headless:firefox": "cypress run --browser firefox --headless"
   },
   "keywords": [],
   "author": "",
